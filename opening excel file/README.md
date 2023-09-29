@@ -8,21 +8,36 @@ Before running the script, make sure you have the openpyxl library installed. Yo
 
 ```bash
 pip install openpyxl
-
+```
 
 <h1>Usage</h1>
-Replace 'employee.xlsx' with the path to your Excel file.
-Replace 'Sheet1' with your sheet name if it's different.
+<ul>
+
+<l1>Replace 'employee.xlsx' with the path to your Excel file.</l1>
+
+<l2>Replace 'Sheet1' with your sheet name if it's different.<l2>
+
 Run the script. It will create a new Excel file named conduct2.xlsx with extracted data.
+
 Script Explanation
+
 The script loads the specified Excel file.
+
 It accesses the specified sheet.
+
 It extracts rows where the value in column 11 is 'Missing'.
+
 The extracted data is organized in a dictionary where each AKAM ID corresponds to a list of employee names.
+
 The script creates a new Excel file.
+
 It adds headers to the new Excel file.
+
 It appends the extracted data to the new Excel file.
+
 The new Excel file is saved as conduct2.xlsx.
+</ul>
+
 Example
 For a better understanding of how this script works, consider the following example:
 
